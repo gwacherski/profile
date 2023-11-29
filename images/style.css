@@ -1,0 +1,73 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #c9dcf5; /* Substitua pela cor de fundo desejada */
+    color: #333; /* Substitua pela cor de texto desejada */
+    padding: 20px; /* Adicione espaço interno conforme necessário */
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 100px auto;
+  box-shadow: 10px 10px 5px 0px rgba(187, 0, 0, 0.75);
+  border: #212121 solid 0.5px;
+  background-color: white;
+}
+
+.button {
+  transition: .8s;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #212121;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  transition-duration: .8s;
+  background-color: #9c9c9c;
+  color: rgb(51, 51, 51);
+}
+
+.link i {
+  transition: .8s;
+  font-size: 50px;
+  color: purple;
+}
+
+.link i:hover {
+  transition-duration: .8s;
+  color: green;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
